@@ -9,7 +9,8 @@ class Settings:
     BACKEND_API_URL = os.getenv("BACKEND_API_URL", "http://127.0.0.1:8000/chat")
     ALLOWED_MODEL_NAMES = [
         # `llama3-70b-8192` was decommissioned, keep the replacement only
-        "llama-3.3-70b-versatile",
+        "llama3-70b-8192",
+        "llama-3.3-70b-versatile"
     ]
 
 settings=Settings()
